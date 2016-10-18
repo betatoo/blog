@@ -1,4 +1,4 @@
 Gavin' Blog
 ============
 
-see[Gavin' Blog](http://gavin1.thiso.org)
+see[Gavin' Blog](http://thiso.github.io/blog/)
