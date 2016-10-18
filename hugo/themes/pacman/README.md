@@ -1,26 +1,33 @@
-baseurl = "http://thiso.github.io/blog"
+# hugo-pacman-theme
+
+Demo: http://coderzh.github.io/hugo-pacman-theme/
+
+## config.toml
+
+```toml
+BaseURL = "http://coderzh.github.io/"
 LanguageCode = "zh-CN"
 HasCJKLanguage = true
-Title = "Gavin` Blog"
+Title = "Hugo PacMan Theme Demo"
 Theme = "hugo-pacman-theme"
 pygmentsStyle = "default"
 pygmentsUseClasses = true
 RSSUri = "feed.xml"
-publishdir = "../"
+
 [Author]
-  Name = "Gavin"
+  Name = "coderzh"
 
 [Params]
-  AuthorHomepage = "http://thiso.github.io/blog"
-  BottomIntroduce = "介绍1 <br/> 介绍2"
+  AuthorHomepage = "http://blog.coderzh.com"
+  BottomIntroduce = "Introduce1 <br/> Introduce2"
   Description = ""
-  Subtitle = "副标题"
-  # Weibo = "coderzh"
-  # WeiboID = 1816308191
- # Twitter = "coderzh"
- # GitHub = "coderzh"
- # Facebook = "coderzh"
- # LinkIn = "coderzh"
+  Subtitle = "subtitle"
+  Weibo = "coderzh"
+  WeiboID = 1816308191
+  Twitter = "coderzh"
+  GitHub = "coderzh"
+  Facebook = "coderzh"
+  LinkIn = "coderzh"
   Imglogo = "img/logo.svg"
   AuthorImg = "img/author.jpg"
   DateFormat = "2006年01月02日"
@@ -31,10 +38,10 @@ publishdir = "../"
   #  ShortName = "coderzh"
 
   [Params.Disqus]
-    ShortName = "Gavin"
+    ShortName = "coderzh"
 
   [Params.GoogleAnalytics]
-  #  ID = "UA-10147768-2"
+    ID = "UA-10147768-2"
 
   [Params.Strings]
     Search = "搜索"
@@ -57,3 +64,8 @@ publishdir = "../"
     Name = "关于"
     URL = "/about"
     Weight = 2
+```
+
+## ScreenShot
+
+![hugo-pacman-theme](http://7xlx3k.com1.z0.glb.clouddn.com/hugo-pacman-theme.png)
